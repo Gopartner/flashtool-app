@@ -1,0 +1,133 @@
+# ==========================
+# Python Standard
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Distribution / packaging
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# MacOS / Windows stuff
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# SQLite / database
+*.db
+*.sqlite3
+
+# Compiled C extensions
+*.so
+*.pyd
+*.dll
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Flask specific
+instance/
+*.pyc
+
+# Django specific
+*.pot
+local_settings.py
+db.sqlite3
+media/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ==========================
+# Custom (optional)
+# ==========================
+# Ignore compiled executables
+*.exe
+*.bat
+
+# Ignore build folder if using PySide6 or PyInstaller
+frontend/build/
+frontend/dist/
+*.spec
+
+logs/*
+!logs/.gitkeep
+
+extracted/*
+!extracted/.gitkeep
+
+download_results/*
+!download_results/.gitkeep
+
